@@ -1,0 +1,84 @@
+title: "Yasin Mohamed's Portfolio"
+
+# SITE ADDRESS
+url: "https://yasinmohamed1109.github.io"
+baseurl: ""                # root site
+# If you keep a project site instead, use:
+# baseurl: "/free-to-engineer-portfolio-template"
+
+# HERO
+name: "Yasin Mohamed"
+headline: "Mechanical & Aerospace Student | CPP Formula SAE"
+description: >-
+  I design, simulate, and build performance parts—Formula SAE aero,
+  lightweight mechanisms, and prototypes. Skilled in CAD, CFD, and testing.
+
+# ASSETS
+profile_image: "{{ '/assets/images/profile-image/avatar.jpg' | relative_url }}"
+resume-url: "{{ '/assets/pdf/resume.pdf' | relative_url }}" # or a Google Drive link
+
+# EXTERNAL ICON LINKS (use slugs/handles; leave empty to hide)
+external-links:
+  linkedin: yasin-mohamed-1877b421b
+  github: yasinmohamed1109
+  stackoverflow: ""
+  medium: ""
+  x-twitter: ""
+  threads: ""
+  instagram: ""
+  youtube: ""
+  discord: ""
+  bluesky: ""
+
+# SKILLS (edit freely)
+skills:
+  - category: 3D Modeling
+    tools:
+      - SolidWorks
+      - Onshape
+      - Creo
+      - Fusion 360
+      - Siemens NX
+  - category: Prototyping
+    tools:
+      - FDM
+      - SLA
+      - CNC
+      - Laser Cutting
+      - Arduino / Raspberry Pi
+  - category: Analysis
+    tools:
+      - CFD (Ansys / XFLR5)
+      - FEA (Ansys)
+      - MATLAB / Python
+  - category: Standards
+    tools:
+      - GD&T (ASME Y14)
+      - ISO fits & tolerances
+
+# CONTACT (Formspree)
+formspree_key: ""   # EITHER: just the id like "abcd1234"
+formspree_url: ""   # OR: full URL like "https://formspree.io/f/abcd1234"
+
+# THEME COLORS
+colors:
+  text: "#1a1c20"
+  border: "#ddd"
+  link: "#4a76ee"
+  highlight: "#0c0cf2"
+  background: "#ffffff"
+  light_background: "#f3f5fb"
+
+# COLLECTIONS
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+
+include:
+  - _projects

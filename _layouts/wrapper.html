@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <!-- NAVBAR -->
+    {% include navbar.html %}
+
+    <!-- Page content -->
+    <div class="page">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Scripts at end for faster paint -->
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+  </body>
+</html>
