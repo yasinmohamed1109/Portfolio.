@@ -8,7 +8,7 @@ skills:
   - Composite layup & fabrication
   - CAD (SolidWorks)
   - Test & data analysis
-main-image: ./rearwing.jpg
+main-image: /rearwing.jpg
 ---
 
 ## Project Overview
@@ -24,10 +24,4 @@ Goal: produce ~30 lb downforce at 30 mph with practical manufacturability and mo
 - Drag penalty acceptable (ΔCd small vs total tractive capacity in autocross).
 - Mount deflection & fastener shear within limits.
 
-## Images
-Place more images in this folder and reference them:
 
-![Pressure field](./rearwing.jpg)
-
-## Notes
-- Future: endplate vortex control, multi-element flap adjuster, wind-tunnel calibration.
